@@ -1,6 +1,19 @@
-#node-logo {
-    width: 300px;
-}
-h1{
-    color:red;
-}
+ body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        padding-top: 100px;
+        background-color: #f5f1eb;
+    }
+
+    h1 {
+        color: Red
+    }
+    p {
+            color: #666;
+            font-size: 18px;
+        }
+    #logo {
+        width: 300px;
+        display: block;
+        margin: 0 auto;
+    }
