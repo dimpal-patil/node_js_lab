@@ -16,6 +16,7 @@ const port = 3000;
 
 // Mount middleware
 app.use(express.static('public'));
+app.use(express.json());
 
 // 4. Define a route handler for GET requests to the root URL ('/')
 app.get('/', (req, res) => {
